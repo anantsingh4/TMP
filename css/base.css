@@ -213,7 +213,7 @@ canvas {
   }
   .details{
 	position: relative;
-	padding-left: 4%;
+	padding: 4%;
   }
   .Events h2 {
 	color: white;
@@ -334,7 +334,7 @@ canvas {
 	}
 	.cards{
 	  display: block;
-	  width: 100%;
+	  width: 80%;
 	}
 	.cards h2{
 	  font-size: 25px;
