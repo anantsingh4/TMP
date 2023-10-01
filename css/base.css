@@ -2,6 +2,7 @@
 *::after,
 *::before {
 	box-sizing: border-box;
+	font-family: 'Inconsolata', monospace;
 }
 
 :root {
@@ -150,11 +151,28 @@ a:focus {
 }
 
 .content__title {
+	width: 100%;
+	animation: typing 3s steps(25), blink .5s step-end infinite alternate;
+	border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+
 	font-size: 6vw;
 	font-weight: normal;
 	margin: 0.5rem 0 1.5rem;
 	font-family: 'Georama', sans-serif;
 }
+@keyframes typing {
+	from {
+	  width: 0
+	}
+  }
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent
+	}
+  }
 
 .content__link {
 	text-decoration: underline;
@@ -221,9 +239,6 @@ canvas {
 	font-size: 50px;
 	border-bottom: 2px solid white;
   }
-  .Events{
-	margin-right: 5%;
-  }
   
   .coordinators {
 	margin-top: 5%;
@@ -267,19 +282,22 @@ canvas {
     padding: 2%;
     border-radius: 10px;
   color: white;
-  display: block;
+  display: inline-block;
   height: fit-content;
   width: 85%;
   /* border: 2px solid red; */
   line-height: 1.2;
   text-align: center;
+
+
+  
 }
 .text h1 {
-  display: flex;
+  display: inline-block;
+  width: fit-content;
   margin-top: 2%;
   text-align: left;
   border-bottom: 4px solid lightcoral;
-  width: fit-content;
 }
 .text p {
   text-align: left;
@@ -397,7 +415,7 @@ canvas {
 	  width: 100%;
 	}
 	.details{
-	  width: 100%;
+	  width: 90%;
 	}
 	.text p{
 	  font-size: 20px;
