@@ -213,7 +213,7 @@ canvas {
   }
   .details{
 	position: relative;
-	padding: 4%;
+	padding-left: 4%;
   }
   .Events h2 {
 	color: white;
