@@ -221,6 +221,9 @@ canvas {
 	font-size: 50px;
 	border-bottom: 2px solid white;
   }
+  .Events{
+	margin-right: 5%;
+  }
   
   .coordinators {
 	margin-top: 5%;
