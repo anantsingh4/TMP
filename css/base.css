@@ -334,7 +334,6 @@ canvas {
 	}
 	.cards{
 	  display: block;
-	  width: 80%;
 	}
 	.cards h2{
 	  font-size: 25px;
@@ -417,6 +416,9 @@ canvas {
 	}
 	.Events h2{
 	  font-size: 30px;
+	}
+	.cards{
+		width: 80%;
 	}
 	.cards p{
 	  font-size: 18px;
