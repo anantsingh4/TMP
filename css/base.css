@@ -121,7 +121,7 @@ a:focus {
 .content {
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
+	width: 100%;
 	height: calc(100vh - 13rem);
 	position: relative;
 	justify-content: flex-start;
@@ -253,12 +253,12 @@ canvas {
   }
   .abcd{
 	  display: flex;
-	  width: 23%;
 	  margin-top: 2%;
   }
   .abcd img{
 	  border-radius: 30px;
 	  margin-left: 3%;
+	  width: 23%;
   }
   .text {
     padding: 2%;
