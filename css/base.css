@@ -22,7 +22,7 @@ body {
 	font-family: 'Georama', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: black;
+	background: darkgrey;
 }
 
 /* Page Loader */
@@ -260,7 +260,7 @@ canvas {
 	border-radius: 40px;
 	width: 400px;
 	height: 420px;
-	margin-bottom: 2%;
+
   }
   .faculty-coordinators img:hover {
 	-webkit-box-shadow: 1px 1px 100px grey, -1px -1px 13px #545b78;
